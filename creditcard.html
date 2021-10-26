@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>credit card</title>
+</head>
+<body>
+    <form action=MyTicket.html onsubmit="myFunction()">
+        <h1><b>Credit card</b></h1><br>
+        <label for=cno>card No</label>
+        <input type=text name=cno id=cnob required><br>
+        <label for=cvv>cvv</label>
+        <input type=password name=cvv id=cvv required><br>
+        <label for=cardExpiry>Card Expiry Date</label>
+        <input type=date name=cardExpiry id=cardExpiry required><br>
+        <label for=cardholder>Card Holder Name</label>
+        <input type=text name=cardHolder id=cardHolder required><br>
+        <button type="submit">OK</button>
+    </form>
+    <script>
+        function myFunction(){alert("Ticket Confirmed")}
+    </script>
+    <a href=index.html><i>Back To Home page</i></a>
+</body>
+</html>
